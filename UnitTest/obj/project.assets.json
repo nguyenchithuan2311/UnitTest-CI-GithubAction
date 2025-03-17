@@ -6135,23 +6135,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nguye\\.nuget\\packages\\": {},
+    "C:\\Users\\bennet.nguyen\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nguye\\RiderProjects\\UnitTestDemo\\UnitTest\\UnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\bennet.nguyen\\UnitTest-CI-GithubAction\\UnitTest\\UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "C:\\Users\\nguye\\RiderProjects\\UnitTestDemo\\UnitTest\\UnitTest.csproj",
-      "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nguye\\RiderProjects\\UnitTestDemo\\UnitTest\\obj\\",
+      "projectPath": "C:\\Users\\bennet.nguyen\\UnitTest-CI-GithubAction\\UnitTest\\UnitTest.csproj",
+      "packagesPath": "C:\\Users\\bennet.nguyen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bennet.nguyen\\UnitTest-CI-GithubAction\\UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bennet.nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6166,8 +6166,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\nguye\\RiderProjects\\UnitTestDemo\\UnitTestDemo\\UnitTestDemo.csproj": {
-              "projectPath": "C:\\Users\\nguye\\RiderProjects\\UnitTestDemo\\UnitTestDemo\\UnitTestDemo.csproj"
+            "C:\\Users\\bennet.nguyen\\UnitTest-CI-GithubAction\\UnitTestDemo\\UnitTestDemo.csproj": {
+              "projectPath": "C:\\Users\\bennet.nguyen\\UnitTest-CI-GithubAction\\UnitTestDemo\\UnitTestDemo.csproj"
             }
           }
         }
@@ -6176,7 +6176,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -6223,7 +6229,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.114/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

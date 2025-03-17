@@ -34,7 +34,7 @@ public class AuthControllers(UserDbContext userDbContext) : ControllerBase
             return false;
         userDbContext.Users.Add(new User(register.Name, register.Password, register.Email, register.PhoneNumber,
             register.Age, register.Address, register.Role, DateTime.Now, DateTime.Now));
-        return true;
+        return true ;
     }
 
     [Route("/auth/login")]
