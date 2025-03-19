@@ -8,8 +8,5 @@ public class UserDbContext
 
     public UserDbContext()
     {
-        Users.Add(new User("admin", "admin", "email@gmail.com", "1234567890", 20, "address", "admin", DateTime.Now,
-            DateTime.Now));
-        Users.Add(new User("user", "user", "a", "1234567890", 20, "address", "user", DateTime.Now, DateTime.Now));
     }
 }

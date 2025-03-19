@@ -7,13 +7,6 @@ namespace UnitTestDemo.Controllers;
 
 public class AuthControllers(UserDbContext userDbContext) : ControllerBase
 {
-    [Route("/auth")]
-    [HttpGet]
-    public string GetUser()
-    {
-        return "Auth";
-    }
-    
     [Route("/auth/register")]
     [HttpPost]
     public bool Register([FromBody] Register register)
